@@ -9,7 +9,7 @@ node('windows'){
     stage('Build')
 
     {
-      def project_path = 'F:\Work\Devops-Learning\Groovy-Examples\dotnetapp\examplewebapp'
+      def project_path = 'F:/Work/Devops-Learning/Groovy-Examples/dotnetapp/examplewebapp'
       bat  'dotnet restore ${project_path}'
     }
     
