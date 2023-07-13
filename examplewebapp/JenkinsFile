@@ -12,6 +12,7 @@ node('windows'){
     stage('Build')
 
     {
+      bat  'dotnet restore C:/jenkins/workspace/dotnet_cicd/examplewebapp/bin/Debug/net6.0/examplewebapp.dll'
       bat  'dotnet build C:/jenkins/workspace/dotnet_cicd/examplewebapp/bin/Debug/net6.0/examplewebapp.dll'
     }
     
