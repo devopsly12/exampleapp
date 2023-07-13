@@ -1,4 +1,4 @@
-node(){
+node('windows'){
 
 stages{
     stage('checkout')
