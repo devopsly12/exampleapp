@@ -1,0 +1,21 @@
+node('windows'){
+
+stages{
+    stage('checkout')
+    {
+
+         checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/devopsly12/exampleapp.git']])
+
+    }
+    stage('Build')
+    {
+      bat  'dotnet restore'
+    
+
+    }
+    
+}
+
+
+
+}
