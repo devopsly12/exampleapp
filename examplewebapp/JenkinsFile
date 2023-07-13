@@ -1,5 +1,5 @@
 node('windows'){
-
+    
     stage('checkout')
     {
 
@@ -9,7 +9,8 @@ node('windows'){
     stage('Build')
 
     {
-      bat  'dotnet restore'
+      def project_path = 'F:\Work\Devops-Learning\Groovy-Examples\dotnetapp\examplewebapp'
+      bat  'dotnet restore ${project_path}'
     }
     
 }
