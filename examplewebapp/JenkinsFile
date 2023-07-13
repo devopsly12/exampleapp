@@ -9,7 +9,8 @@ node('windows'){
     stage('Build')
 
     {
-      def project_path = 'F:/Work/Devops-Learning/Groovy-Examples/dotnetapp/examplewebapp/examplewebapp.csproj'
+      def project_path = 'F:/Work/Devops-Learning/Groovy-Examples/dotnetapp/examplewebapp/bin/Debug/net6.0/examp
+  lewebapp.dll'
       bat  'dotnet build ${project_path}'
     }
     
