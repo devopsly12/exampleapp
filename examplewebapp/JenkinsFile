@@ -9,7 +9,7 @@ node('windows'){
     stage('Build')
 
     {
-      def project_path = 'C:/jenkins/workspace/dotnet_cicd/examplewebapp/bin/Debug/net6.0'
+      def project_path = 'C:/jenkins/workspace/dotnet_cicd/examplewebapp/bin/Debug/net6.0/'
       bat  'dotnet build ${project_path}'
     }
     
