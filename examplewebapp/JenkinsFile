@@ -1,6 +1,5 @@
 node('windows'){
 
-stages{
     stage('checkout')
     {
 
@@ -13,8 +12,4 @@ stages{
       bat  'dotnet restore'
     }
     
-}
-
-
-
 }
