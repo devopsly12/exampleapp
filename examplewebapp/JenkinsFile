@@ -10,7 +10,7 @@ node('windows'){
 
     {
       def project_path = 'F:/Work/Devops-Learning/Groovy-Examples/dotnetapp/examplewebapp/examplewebapp.csproj'
-      bat  'dotnet restore ${project_path}'
+      bat  'dotnet build ${project_path}'
     }
     
 }
