@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-def projectpath = 'C:/jenkins/workspace/dotnet_cicd/examplewebapp/bin/Debug/net6.0/'
+
 
 node('windows'){
     
@@ -12,7 +12,7 @@ node('windows'){
     stage('Build')
 
     {
-      bat  'dotnet build ${projectpath}'
+      bat  'dotnet build C:/jenkins/workspace/dotnet_cicd/examplewebapp/bin/Debug/net6.0/'
     }
     
 }
