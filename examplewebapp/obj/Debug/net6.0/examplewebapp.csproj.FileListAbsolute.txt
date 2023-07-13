@@ -19,3 +19,4 @@ F:\Work\Devops-Learning\Groovy-Examples\dotnetapp\examplewebapp\obj\Debug\net6.0
 F:\Work\Devops-Learning\Groovy-Examples\dotnetapp\examplewebapp\obj\Debug\net6.0\examplewebapp.pdb
 F:\Work\Devops-Learning\Groovy-Examples\dotnetapp\examplewebapp\obj\Debug\net6.0\examplewebapp.genruntimeconfig.cache
 F:\Work\Devops-Learning\Groovy-Examples\dotnetapp\examplewebapp\obj\Debug\net6.0\ref\examplewebapp.dll
+F:\Work\Devops-Learning\Groovy-Examples\dotnetapp\examplewebapp\bin\Debug\net6.0\.JenkinsFile.config.json
