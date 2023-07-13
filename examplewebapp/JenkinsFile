@@ -12,6 +12,8 @@ node('windows'){
     stage('Build')
 
     {
+      def projectpath = 'C:/jenkins/workspace/dotnet_cicd/examplewebapp/bin/Debug/net6.0'
+      cd ${projectpath}
       bat  'dotnet build examplewebapp.dll'
     }
     
